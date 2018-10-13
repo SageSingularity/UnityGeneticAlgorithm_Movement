@@ -35,6 +35,7 @@ The Cromosome script stores the gene that each bot is using. Each bot gets its o
 
 Contains the following functions:
  - SetInt(): Allows manual modification of a specific gene. 
+ - CreateNewGene(): Creates a new gene and adds it to the DNA.
 
 ### Brain
 The Brain script is in charge of reading each bots Cromosome, and implementing the genes it finds within. Each bot gets its own 'Brain'.
