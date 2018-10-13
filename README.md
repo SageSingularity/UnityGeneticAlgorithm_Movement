@@ -3,6 +3,14 @@ This demo shows how a genetic algorithm can be used to teach bots how to navigat
 
 ## Table of Contents
  - [Scripts](#scripts)
+  - [Cromosome.cs](#cromosome)
+  - [Brain.cs](#brain)
+  - [PopulationManager.cs](#population-manager)
+## Scripts
+This section covers scripts directly involved with implementing the genetic algorithm in this demo. Scripts not listed here are but present in this github repository are build output files that Unity3D engine outputs in order to [build an HTML5 standalone](https://docs.unity3d.com/Manual/webgl-gettingstarted.html).
 
-### Scripts
+### Cromosome
 
+### Brain
+
+### Population Manager
