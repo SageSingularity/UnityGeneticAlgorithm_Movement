@@ -12,8 +12,8 @@ Genetic algorithms can be configured in numerous ways, to modify RGB values or t
 
 Each bot is 'Killed' by falling off the platform, which stops the timer counting it's survival time. Survival time is what this demo selects for, thus rewarding the longest lived bots. It's important to note a pitfall of this setup is that a bot learns to basically go in a circle, pushing their survival time to infinity. I left this in the demo to demonstrate that it can happen, and a fix would be to also kill bots that do not continue to make significant progress away from prior 'Rooms' they have occupied.
 
-Here's a figure showing a visual representation of the genes modification over time:
-<center>![](GeneTimingDiagram.jpg?raw=true)</center>
+Here's a figure showing a visual representation of individual genes being added to the overall strand over time:
+![](GeneTimingDiagram.jpg?raw=true)
 
 ## How to Save the Results
 Currently saving the eventual 'Best Survivor', the bot that ends up living the longest, is not implemented. However, you could store the genes generated after a run in file format in order to make use of the results in the future. This is particularly useful in game development for example, where you could save an AI controller that was able to best survive a particular maze or made the right decisions in a combat game.
